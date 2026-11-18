@@ -8,7 +8,7 @@ namespace
 {
 bool isIdentifier(const verilog_token &token)
 {
-    return token.getType() == identifier;
+    return (token.getType() == identifier);
 }
 
 void addDeclaredNames(

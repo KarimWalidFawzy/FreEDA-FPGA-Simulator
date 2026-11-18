@@ -30,6 +30,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         reg.h reg.cpp
         time.h time.cpp
         gates.h gates.cpp
+        verilogtexteditordialog.h verilogtexteditordialog.cpp verilogtexteditordialog.ui
 
 
 
