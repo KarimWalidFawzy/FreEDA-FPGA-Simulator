@@ -247,6 +247,30 @@ fileparser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/fileparser.cpp.s
 .PHONY : fileparser.cpp.s
 
+gates.obj: gates.cpp.obj
+.PHONY : gates.obj
+
+# target to build an object file
+gates.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/gates.cpp.obj
+.PHONY : gates.cpp.obj
+
+gates.i: gates.cpp.i
+.PHONY : gates.i
+
+# target to preprocess a source file
+gates.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/gates.cpp.i
+.PHONY : gates.cpp.i
+
+gates.s: gates.cpp.s
+.PHONY : gates.s
+
+# target to generate assembly for a file
+gates.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/gates.cpp.s
+.PHONY : gates.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -294,6 +318,54 @@ mainwindow.s: mainwindow.cpp.s
 mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
+
+reg.obj: reg.cpp.obj
+.PHONY : reg.obj
+
+# target to build an object file
+reg.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/reg.cpp.obj
+.PHONY : reg.cpp.obj
+
+reg.i: reg.cpp.i
+.PHONY : reg.i
+
+# target to preprocess a source file
+reg.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/reg.cpp.i
+.PHONY : reg.cpp.i
+
+reg.s: reg.cpp.s
+.PHONY : reg.s
+
+# target to generate assembly for a file
+reg.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/reg.cpp.s
+.PHONY : reg.cpp.s
+
+time.obj: time.cpp.obj
+.PHONY : time.obj
+
+# target to build an object file
+time.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/time.cpp.obj
+.PHONY : time.cpp.obj
+
+time.i: time.cpp.i
+.PHONY : time.i
+
+# target to preprocess a source file
+time.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/time.cpp.i
+.PHONY : time.cpp.i
+
+time.s: time.cpp.s
+.PHONY : time.s
+
+# target to generate assembly for a file
+time.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/time.cpp.s
+.PHONY : time.cpp.s
 
 verilog_module.obj: verilog_module.cpp.obj
 .PHONY : verilog_module.obj
@@ -343,6 +415,30 @@ verilog_token.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/verilog_token.cpp.s
 .PHONY : verilog_token.cpp.s
 
+wire.obj: wire.cpp.obj
+.PHONY : wire.obj
+
+# target to build an object file
+wire.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/wire.cpp.obj
+.PHONY : wire.cpp.obj
+
+wire.i: wire.cpp.i
+.PHONY : wire.i
+
+# target to preprocess a source file
+wire.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/wire.cpp.i
+.PHONY : wire.cpp.i
+
+wire.s: wire.cpp.s
+.PHONY : wire.s
+
+# target to generate assembly for a file
+wire.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FPGASimulator.dir\build.make CMakeFiles/FPGASimulator.dir/wire.cpp.s
+.PHONY : wire.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -364,18 +460,30 @@ help:
 	@echo ... fileparser.obj
 	@echo ... fileparser.i
 	@echo ... fileparser.s
+	@echo ... gates.obj
+	@echo ... gates.i
+	@echo ... gates.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... reg.obj
+	@echo ... reg.i
+	@echo ... reg.s
+	@echo ... time.obj
+	@echo ... time.i
+	@echo ... time.s
 	@echo ... verilog_module.obj
 	@echo ... verilog_module.i
 	@echo ... verilog_module.s
 	@echo ... verilog_token.obj
 	@echo ... verilog_token.i
 	@echo ... verilog_token.s
+	@echo ... wire.obj
+	@echo ... wire.i
+	@echo ... wire.s
 .PHONY : help
 
 

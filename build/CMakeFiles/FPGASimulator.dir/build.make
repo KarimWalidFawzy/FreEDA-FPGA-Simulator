@@ -168,6 +168,66 @@ CMakeFiles/FPGASimulator.dir/verilog_module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FPGASimulator.dir/verilog_module.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\verilog_module.cpp -o CMakeFiles\FPGASimulator.dir\verilog_module.cpp.s
 
+CMakeFiles/FPGASimulator.dir/wire.cpp.obj: CMakeFiles/FPGASimulator.dir/flags.make
+CMakeFiles/FPGASimulator.dir/wire.cpp.obj: CMakeFiles/FPGASimulator.dir/includes_CXX.rsp
+CMakeFiles/FPGASimulator.dir/wire.cpp.obj: C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/wire.cpp
+CMakeFiles/FPGASimulator.dir/wire.cpp.obj: CMakeFiles/FPGASimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FPGASimulator.dir/wire.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FPGASimulator.dir/wire.cpp.obj -MF CMakeFiles\FPGASimulator.dir\wire.cpp.obj.d -o CMakeFiles\FPGASimulator.dir\wire.cpp.obj -c C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\wire.cpp
+
+CMakeFiles/FPGASimulator.dir/wire.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FPGASimulator.dir/wire.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\wire.cpp > CMakeFiles\FPGASimulator.dir\wire.cpp.i
+
+CMakeFiles/FPGASimulator.dir/wire.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FPGASimulator.dir/wire.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\wire.cpp -o CMakeFiles\FPGASimulator.dir\wire.cpp.s
+
+CMakeFiles/FPGASimulator.dir/reg.cpp.obj: CMakeFiles/FPGASimulator.dir/flags.make
+CMakeFiles/FPGASimulator.dir/reg.cpp.obj: CMakeFiles/FPGASimulator.dir/includes_CXX.rsp
+CMakeFiles/FPGASimulator.dir/reg.cpp.obj: C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/reg.cpp
+CMakeFiles/FPGASimulator.dir/reg.cpp.obj: CMakeFiles/FPGASimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FPGASimulator.dir/reg.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FPGASimulator.dir/reg.cpp.obj -MF CMakeFiles\FPGASimulator.dir\reg.cpp.obj.d -o CMakeFiles\FPGASimulator.dir\reg.cpp.obj -c C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\reg.cpp
+
+CMakeFiles/FPGASimulator.dir/reg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FPGASimulator.dir/reg.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\reg.cpp > CMakeFiles\FPGASimulator.dir\reg.cpp.i
+
+CMakeFiles/FPGASimulator.dir/reg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FPGASimulator.dir/reg.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\reg.cpp -o CMakeFiles\FPGASimulator.dir\reg.cpp.s
+
+CMakeFiles/FPGASimulator.dir/time.cpp.obj: CMakeFiles/FPGASimulator.dir/flags.make
+CMakeFiles/FPGASimulator.dir/time.cpp.obj: CMakeFiles/FPGASimulator.dir/includes_CXX.rsp
+CMakeFiles/FPGASimulator.dir/time.cpp.obj: C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/time.cpp
+CMakeFiles/FPGASimulator.dir/time.cpp.obj: CMakeFiles/FPGASimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FPGASimulator.dir/time.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FPGASimulator.dir/time.cpp.obj -MF CMakeFiles\FPGASimulator.dir\time.cpp.obj.d -o CMakeFiles\FPGASimulator.dir\time.cpp.obj -c C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\time.cpp
+
+CMakeFiles/FPGASimulator.dir/time.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FPGASimulator.dir/time.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\time.cpp > CMakeFiles\FPGASimulator.dir\time.cpp.i
+
+CMakeFiles/FPGASimulator.dir/time.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FPGASimulator.dir/time.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\time.cpp -o CMakeFiles\FPGASimulator.dir\time.cpp.s
+
+CMakeFiles/FPGASimulator.dir/gates.cpp.obj: CMakeFiles/FPGASimulator.dir/flags.make
+CMakeFiles/FPGASimulator.dir/gates.cpp.obj: CMakeFiles/FPGASimulator.dir/includes_CXX.rsp
+CMakeFiles/FPGASimulator.dir/gates.cpp.obj: C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/gates.cpp
+CMakeFiles/FPGASimulator.dir/gates.cpp.obj: CMakeFiles/FPGASimulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FPGASimulator.dir/gates.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FPGASimulator.dir/gates.cpp.obj -MF CMakeFiles\FPGASimulator.dir\gates.cpp.obj.d -o CMakeFiles\FPGASimulator.dir\gates.cpp.obj -c C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\gates.cpp
+
+CMakeFiles/FPGASimulator.dir/gates.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FPGASimulator.dir/gates.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\gates.cpp > CMakeFiles\FPGASimulator.dir\gates.cpp.i
+
+CMakeFiles/FPGASimulator.dir/gates.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FPGASimulator.dir/gates.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\gates.cpp -o CMakeFiles\FPGASimulator.dir\gates.cpp.s
+
 # Object files for target FPGASimulator
 FPGASimulator_OBJECTS = \
 "CMakeFiles/FPGASimulator.dir/FPGASimulator_autogen/mocs_compilation.cpp.obj" \
@@ -175,7 +235,11 @@ FPGASimulator_OBJECTS = \
 "CMakeFiles/FPGASimulator.dir/mainwindow.cpp.obj" \
 "CMakeFiles/FPGASimulator.dir/verilog_token.cpp.obj" \
 "CMakeFiles/FPGASimulator.dir/fileparser.cpp.obj" \
-"CMakeFiles/FPGASimulator.dir/verilog_module.cpp.obj"
+"CMakeFiles/FPGASimulator.dir/verilog_module.cpp.obj" \
+"CMakeFiles/FPGASimulator.dir/wire.cpp.obj" \
+"CMakeFiles/FPGASimulator.dir/reg.cpp.obj" \
+"CMakeFiles/FPGASimulator.dir/time.cpp.obj" \
+"CMakeFiles/FPGASimulator.dir/gates.cpp.obj"
 
 # External object files for target FPGASimulator
 FPGASimulator_EXTERNAL_OBJECTS =
@@ -186,6 +250,10 @@ FPGASimulator.exe: CMakeFiles/FPGASimulator.dir/mainwindow.cpp.obj
 FPGASimulator.exe: CMakeFiles/FPGASimulator.dir/verilog_token.cpp.obj
 FPGASimulator.exe: CMakeFiles/FPGASimulator.dir/fileparser.cpp.obj
 FPGASimulator.exe: CMakeFiles/FPGASimulator.dir/verilog_module.cpp.obj
+FPGASimulator.exe: CMakeFiles/FPGASimulator.dir/wire.cpp.obj
+FPGASimulator.exe: CMakeFiles/FPGASimulator.dir/reg.cpp.obj
+FPGASimulator.exe: CMakeFiles/FPGASimulator.dir/time.cpp.obj
+FPGASimulator.exe: CMakeFiles/FPGASimulator.dir/gates.cpp.obj
 FPGASimulator.exe: CMakeFiles/FPGASimulator.dir/build.make
 FPGASimulator.exe: C:/msys64/mingw64/lib/libQt6Widgets.dll.a
 FPGASimulator.exe: C:/msys64/mingw64/lib/libQt6Gui.dll.a
@@ -194,7 +262,7 @@ FPGASimulator.exe: C:/msys64/mingw64/lib/libQt6EntryPoint.a
 FPGASimulator.exe: CMakeFiles/FPGASimulator.dir/linkLibs.rsp
 FPGASimulator.exe: CMakeFiles/FPGASimulator.dir/objects1.rsp
 FPGASimulator.exe: CMakeFiles/FPGASimulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable FPGASimulator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\kimot\Desktop\VLSI\FreEDA\FPGASimulator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable FPGASimulator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FPGASimulator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

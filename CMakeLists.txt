@@ -42,12 +42,26 @@ else()
     if(ANDROID)
         add_library(FPGASimulator SHARED
             ${PROJECT_SOURCES}
+            verilog_token.h verilog_token.cpp
+            fileparser.h fileparser.cpp
+            verilog_module.h verilog_module.cpp
+            wire.h wire.cpp
+            reg.h reg.cpp
+            time.h time.cpp
+            gates.h gates.cpp
         )
 # Define properties for Android with Qt 5 after find_package() calls as:
 #    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
     else()
         add_executable(FPGASimulator
             ${PROJECT_SOURCES}
+            verilog_token.h verilog_token.cpp
+            fileparser.h fileparser.cpp
+            verilog_module.h verilog_module.cpp
+            wire.h wire.cpp
+            reg.h reg.cpp
+            time.h time.cpp
+            gates.h gates.cpp
         )
     endif()
 endif()

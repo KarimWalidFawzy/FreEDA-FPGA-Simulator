@@ -337,9 +337,27 @@
 			null
 		],
 		[
+			"C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/gates.h",
+			"MU",
+			"EWIEGA46WW/moc_gates.cpp",
+			null
+		],
+		[
 			"C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/reg.h",
+			"MU",
+			"EWIEGA46WW/moc_reg.cpp",
+			null
+		],
+		[
+			"C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/time.h",
+			"MU",
+			"EWIEGA46WW/moc_time.cpp",
 			null
 		],
 		[
@@ -352,6 +370,12 @@
 			"C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/verilog_token.h",
 			"MU",
 			"EWIEGA46WW/moc_verilog_token.cpp",
+			null
+		],
+		[
+			"C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/wire.h",
+			"MU",
+			"EWIEGA46WW/moc_wire.cpp",
 			null
 		]
 	],
@@ -435,6 +459,11 @@
 			null
 		],
 		[
+			"C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/gates.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/main.cpp",
 			"MU",
 			null
@@ -445,12 +474,27 @@
 			null
 		],
 		[
+			"C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/reg.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/time.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/verilog_module.cpp",
 			"MU",
 			null
 		],
 		[
 			"C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/verilog_token.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/kimot/Desktop/VLSI/FreEDA/FPGASimulator/wire.cpp",
 			"MU",
 			null
 		]

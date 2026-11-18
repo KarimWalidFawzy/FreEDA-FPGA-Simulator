@@ -8,8 +8,7 @@ class FileParser
 {
 public:
     FileParser();
-    QVector <verilog_module> ModProducer(QVector<verilog_token> vtokens);// function used for 
-    
+    QVector<verilog_module> ModProducer(const QVector<verilog_token> &vtokens);
 };
 
 #endif // FILEPARSER_H
