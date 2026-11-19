@@ -31,6 +31,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         time.h time.cpp
         gates.h gates.cpp
         verilogtexteditordialog.h verilogtexteditordialog.cpp verilogtexteditordialog.ui
+        gatesdiagram.h gatesdiagram.cpp gatesdiagram.ui
+        voltagetimingdiagram.h voltagetimingdiagram.cpp voltagetimingdiagram.ui
 
 
 
